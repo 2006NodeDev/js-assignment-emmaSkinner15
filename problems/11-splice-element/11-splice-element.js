@@ -5,7 +5,7 @@ Splice the element at the provided index in the array.
 //is this the desired implementation?
 function spliceElement(someArr, index) {
   newArray = someArr[index]
-  someArr = someArr.splice(index,1) //is is chearing to use the already existing splice fxn?
+  someArr = someArr.splice(index,1) //is is cheating to use the already existing splice fxn?
   return newArray
 }
 startingArray = ['Paul', 'John', 'George', 'Ringo']

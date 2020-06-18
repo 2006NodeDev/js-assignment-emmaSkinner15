@@ -3,12 +3,12 @@ Create an object using an object literal, constructor function, and es6 class.
 The object should have the fields name and age.*/
 var wizard = {name: "Gandalf the Grey", age: 2000}
 
-function sorceror(name, age){
+function sorcerer(name, age){
         this.name = name
         this.age = age
 }
 
-let flamel = new sorceror('Nicholas Flamel', 1500)
+let flamel = new sorcerer('Nicholas Flamel', 1500)
 
 class witch{
     constructor(name, age){

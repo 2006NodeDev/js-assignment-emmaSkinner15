@@ -28,7 +28,6 @@ function bubbleSort(numArray) {
                 }
             }
         }
-        console.log(numArray)
         return bubbleSort(numArray)
     }
 
