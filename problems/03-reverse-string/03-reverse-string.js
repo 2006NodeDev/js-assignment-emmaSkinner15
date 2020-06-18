@@ -1,6 +1,6 @@
 /* 3. Reverse String
 Define function: reverseStr(someStr)
-Reverse and return the String. */
+Reverse and return the String. 
 function reverseStr(someStr) {
   halfLength = Math.floor(someStr.length/2)
   newArray = []
@@ -16,4 +16,15 @@ function reverseStr(someStr) {
   
   return newString
 }
-console.log(reverseStr("Hello World!"))
+console.log(reverseStr("Hello World!")) */
+function reverseStr(someStr){
+  reversedString = ""
+for(var i=1;i<=someStr.length;i++ ){
+  //reversedString[i-1] = 
+  reversedString += someStr.slice(someStr.length-i, someStr.length+1-i)
+}
+return reversedString
+}
+testString = "racecar"
+secondTest = "abcdefghijklmnopqurstuvwxyz"
+console.log(reverseStr(testString), reverseStr(secondTest))
