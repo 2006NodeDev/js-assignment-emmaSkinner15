@@ -5,11 +5,11 @@ If incorrect input is entered, throw an exception stating the input was incorrec
 For example substring('hello', 0, 3) should give 'hel' */
 function substring(someStr, startIndex, endIndex) {
 if(someStr===""){
-    return("No string was selected! Please specify a string!");
+    throw("noInput");
 }else if(startIndex<0 || someStr.length<startIndex){
-    return("The start index is out of bounds! Please specify a value of at least 0 \n and less than the string's length");
+    throw("startIndexOOB");
 }else if(endIndex<startIndex || someStr.length<=endIndex){
-    return("The end index is out of bounds! Please specify a value \n greater than the start index and less than or equal to the string's length");
+    throw("endIndexOOB");
     
 }else{
     newString=""
@@ -19,5 +19,9 @@ if(someStr===""){
     return newString
 }
 }
-console.log(substring("", 3, 4))
+try {
+    substring("", 3, 4)
+} catch(e) {
+    console.error("You made an error of type: "+e)
+}
 console.log(substring("Before you were, I am ", 17, 21))
