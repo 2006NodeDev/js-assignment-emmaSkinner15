@@ -1,5 +1,9 @@
 # js-lang-packet
+
+Let's add some text to the README!!
+Hopefully this should show up?
 This is information about what the assignment looks like.
 Let's add a few more lines of text here: Switch Branch using git checkout. The easiest way to switch branch on Git is to use the “ git checkout ” command and...
 Switch branch using git switch. A quick way of switching branch on Git is to use the “ git switch ” command and specify...
 Checkout Remote Branch on Git. In some cases, you may be interested in checking out remote branches...
+
