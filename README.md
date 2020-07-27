@@ -1,2 +1,3 @@
 # js-lang-packet
-This is information about what the assignment looks like
+Let's add some text to the README!!
+Hopefully this should show up?
